@@ -1,6 +1,9 @@
 /*
 Exercicio:
-Implemente uma classe para tabelas hash. A classe deve criar uma tabela de tamanho m e utilizar uma função hash baseada em divisão. Defina uma quantidade de dados a ser inserida na tabela e crie métodos para inserir e buscar os elementos na tabela. A função de busca deve retornar VERDADE se o elemento estiver na tabela ou FALSO caso contrário. Crie um programa main que insere valores na tabela e mostre quantas colisões ocorrem no processo de inserção.
+Implemente uma classe para tabelas hash. A classe deve criar uma tabela de tamanho m e utilizar uma função hash baseada
+em divisão. Defina uma quantidade de dados a ser inserida na tabela e crie métodos para inserir e buscar os elementos na 
+tabela. A função de busca deve retornar VERDADE se o elemento estiver na tabela ou FALSO caso contrário. Crie um programa
+main que insere valores na tabela e mostre quantas colisões ocorrem no processo de inserção.
 */
 
 #include <iostream>
