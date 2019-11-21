@@ -13,6 +13,7 @@ class HashTable {
     int probing(int position);
     bool insert(int value);
     int hashFunction(int value);
+    bool hasValue(int value);
 };
 
 #endif

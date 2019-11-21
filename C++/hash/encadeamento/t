@@ -1,0 +1,15 @@
+  hash->insert(111);
+  hash->insert(111);
+  hash->insert(111);
+  hash->insert(123);
+  hash->insert(321);
+  hash->insert(132);
+  hash->insert(107);
+  hash->insert(106);
+  hash->insert(222);
+  hash->insert(3948);
+  hash->insert(3948);
+  hash->insert(222);
+  hash->hasValue(111);
+  std::cout <<  "\n";
+  std::cout << hash->hasValue(112);
