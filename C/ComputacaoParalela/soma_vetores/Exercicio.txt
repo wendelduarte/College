@@ -1,0 +1,13 @@
+Faça um programa que some todos os números de um vetor de tamanho 2^30. Garanta que os números neste vetor sejam sempre os mesmos para garantir o mesmo resultado final!
+
+Construa 3 versões em paralelo que soma parcialmente os valores e:
+
+Opção 1: cada thread guarda a soma intermediária em um vetor intermediário; ao final, a thread principal soma os valores guardados neste vetor intermediário e apresenta o somatório total.
+Opção 2: que utiliza uma variável compartilhada e #pragma omp critial para controle de seção crítica
+Opção 3: que utiliza #pragma omp ... reduction(...) para a somatória final
+
+Faça uma comparação de tempo de execução com 2, 4, 6 e 8 threads, para cada versão. Construa uma tabela contendo o tempo médio de 3 execuções para cada versão e sua respectiva quantidade de threads.
+
+Entregue os códigos fontes e as tabelas no formato Excel, onde cada aba da planilha é relativa a uma versão diferente de código com sua respectiva tabela de cada execução .
+
+Tarefa adicional e opcional: faça um único gráfico que mostre a diminuição de tempo de execução conforme a quantidade de threads usada para as versões paralelas aumentam e compare todas essas versões.
