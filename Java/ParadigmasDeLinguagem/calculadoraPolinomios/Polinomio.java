@@ -1,3 +1,4 @@
+package calculadoraPolinomios;
 public class Polinomio {
 	
 	private double[] termos;
