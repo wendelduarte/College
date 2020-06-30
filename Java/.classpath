@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="ParadigmasDeLinguagem"/>
-	<classpathentry excluding="tcp/|udp/" kind="src" path="Redes/socket"/>
-	<classpathentry kind="src" path="Redes/socket/tcp"/>
-	<classpathentry kind="src" path="Redes/socket/udp"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
